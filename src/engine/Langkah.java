@@ -3,14 +3,14 @@ package engine;
 /**
  * Enum to represent the stroke of an engine
  */
-public enum Stroke {
+public enum Langkah {
     /**
      * Two-stroke engine
      */
-    TWO_STROKE,
+    DUA_LANGKAH,
 
     /**
      * Four-stroke engine
      */
-    FOUR_STROKE
+    EMPAT_LANGKAH
 }
