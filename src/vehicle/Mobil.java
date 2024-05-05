@@ -9,8 +9,8 @@ public class Mobil extends Kendaraan {
 
     private int jumlahPintu;
 
-    public Mobil(float bahanBakar, Mesin mesin) {
-        super(bahanBakar, mesin);
+    public Mobil(Mesin mesin) {
+        super(mesin);
     }
 
     public void setJumlahPintu(int jumlahPintu) {

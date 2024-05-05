@@ -3,19 +3,24 @@ package vehicle;
 import engine.Mesin;
 
 public abstract class Kendaraan {
-    /**
-     * The number of fuels the car can hold (in liters)
-     */
-    private final float bahanBakar;
-    private final Mesin mesin;
 
-    public Kendaraan(float bahanBakar, Mesin mesin) {
-        this.bahanBakar = bahanBakar;
+    private float bahanBakar;
+    private Mesin mesin;
+
+    public Kendaraan(Mesin mesin) {
         this.mesin = mesin;
+    }
+
+    public void setBahanBakar(float bahanBakar) {
+        this.bahanBakar = bahanBakar;
     }
 
     public float getBahanBakar() {
         return bahanBakar;
+    }
+
+    public void setEngine(Mesin mesin) {
+        this.mesin = mesin;
     }
 
     public Mesin getEngine() {
