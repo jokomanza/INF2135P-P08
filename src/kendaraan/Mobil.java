@@ -2,9 +2,6 @@ package kendaraan;
 
 import mesin.Mesin;
 
-/**
- * Car class to create a car object
- */
 public class Mobil extends Kendaraan {
 
     private int jumlahPintu;
@@ -13,11 +10,11 @@ public class Mobil extends Kendaraan {
         super(mesin);
     }
 
-    public void setJumlahPintu(int jumlahPintu) {
-        this.jumlahPintu = jumlahPintu;
-    }
-
     public int getJumlahPintu() {
         return jumlahPintu;
+    }
+
+    public void setJumlahPintu(int jumlahPintu) {
+        this.jumlahPintu = jumlahPintu;
     }
 }

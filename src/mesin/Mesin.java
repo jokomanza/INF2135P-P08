@@ -1,8 +1,5 @@
 package mesin;
 
-/**
- * Engine class to create an engine object
- */
 public class Mesin {
 
     private int jumlahSilinder;

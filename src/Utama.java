@@ -1,18 +1,10 @@
-import mesin.Langkah;
-import mesin.Mesin;
 import kendaraan.Mobil;
 import kendaraan.SepedaMotor;
+import mesin.Langkah;
+import mesin.Mesin;
 
-/**
- * Main class to test the implementation of the classes
- */
 public class Utama {
 
-    /**
-     * Main method to test the implementation of the classes
-     *
-     * @param args Command line arguments
-     */
     public static void main(String[] args) {
         Mesin mesinHondaCbr250rr = new Mesin(2, 249.7f, Langkah.EMPAT_LANGKAH);
         SepedaMotor hondaCbr250rr = new SepedaMotor(mesinHondaCbr250rr);

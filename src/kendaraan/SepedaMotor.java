@@ -2,9 +2,6 @@ package kendaraan;
 
 import mesin.Mesin;
 
-/**
- * Car class to create a car object
- */
 public class SepedaMotor extends Kendaraan {
 
     private int ketinggianTempatDuduk;
