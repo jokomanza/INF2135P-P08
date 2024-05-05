@@ -6,10 +6,10 @@ package engine;
 public class Mesin {
 
     private final int jumlahSilinder;
-    private final int kapasitasSilinder;
+    private final float kapasitasSilinder;
     private final Langkah langkah;
 
-    public Mesin(int jumlahSilinder, int kapasitasSilinder, Langkah langkah) {
+    public Mesin(int jumlahSilinder, float kapasitasSilinder, Langkah langkah) {
         this.jumlahSilinder = jumlahSilinder;
         this.kapasitasSilinder = kapasitasSilinder;
         this.langkah = langkah;
@@ -19,7 +19,7 @@ public class Mesin {
         return jumlahSilinder;
     }
 
-    public int getKapasitasSilinder() {
+    public float getKapasitasSilinder() {
         return kapasitasSilinder;
     }
 
