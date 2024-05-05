@@ -1,7 +1,7 @@
-import engine.Langkah;
-import engine.Mesin;
-import vehicle.Mobil;
-import vehicle.SepedaMotor;
+import mesin.Langkah;
+import mesin.Mesin;
+import kendaraan.Mobil;
+import kendaraan.SepedaMotor;
 
 /**
  * Main class to test the implementation of the classes

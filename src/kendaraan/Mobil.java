@@ -1,6 +1,6 @@
-package vehicle;
+package kendaraan;
 
-import engine.Mesin;
+import mesin.Mesin;
 
 /**
  * Car class to create a car object
