@@ -6,7 +6,7 @@ import vehicle.SepedaMotor;
 /**
  * Main class to test the implementation of the classes
  */
-public class Main {
+public class Utama {
 
     /**
      * Main method to test the implementation of the classes
