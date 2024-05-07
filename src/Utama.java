@@ -18,16 +18,16 @@ public class Utama {
 
         System.out.println("Sepeda Motor Honda CBR250RR");
         System.out.println("Bahan bakar: " + hondaCbr250rr.getBahanBakar() + " liter");
-        System.out.println("Jumlah silinder: " + hondaCbr250rr.getEngine().getJumlahSilinder());
-        System.out.println("Kapasitas silinder: " + hondaCbr250rr.getEngine().getKapasitasSilinder() + " cc");
-        System.out.println("Langkah: " + hondaCbr250rr.getEngine().getLangkah());
+        System.out.println("Jumlah silinder: " + hondaCbr250rr.getEngine().jumlahSilinder);
+        System.out.println("Kapasitas silinder: " + hondaCbr250rr.getEngine().kapasitasSilinder + " cc");
+        System.out.println("Langkah: " + hondaCbr250rr.getEngine().langkah);
         System.out.println("Ketinggian tempat duduk: " + hondaCbr250rr.getKetinggianTempatDuduk() + " mm");
 
         System.out.println("\nMobil Toyota Supra MK4");
         System.out.println("Bahan bakar: " + supraMk4.getBahanBakar() + " liter");
-        System.out.println("Jumlah silinder: " + supraMk4.getEngine().getJumlahSilinder());
-        System.out.println("Kapasitas silinder: " + supraMk4.getEngine().getKapasitasSilinder() + " cc");
-        System.out.println("Langkah: " + supraMk4.getEngine().getLangkah());
+        System.out.println("Jumlah silinder: " + supraMk4.getEngine().jumlahSilinder);
+        System.out.println("Kapasitas silinder: " + supraMk4.getEngine().kapasitasSilinder + " cc");
+        System.out.println("Langkah: " + supraMk4.getEngine().langkah);
         System.out.println("Jumlah pintu: " + supraMk4.getJumlahPintu());
     }
 }
