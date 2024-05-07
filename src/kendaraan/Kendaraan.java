@@ -4,18 +4,18 @@ import mesin.Mesin;
 
 public abstract class Kendaraan {
 
-    private float bahanBakar;
+    private String bahanBakar;
     private Mesin mesin;
 
     public Kendaraan(Mesin mesin) {
         this.mesin = mesin;
     }
 
-    public void setBahanBakar(float bahanBakar) {
+    public void setBahanBakar(String bahanBakar) {
         this.bahanBakar = bahanBakar;
     }
 
-    public float getBahanBakar() {
+    public String getBahanBakar() {
         return bahanBakar;
     }
 

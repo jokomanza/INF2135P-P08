@@ -8,12 +8,12 @@ public class Utama {
     public static void main(String[] args) {
         Mesin mesinHondaCbr250rr = new Mesin(2, 249.7f, Langkah.EMPAT_LANGKAH);
         SepedaMotor hondaCbr250rr = new SepedaMotor(mesinHondaCbr250rr);
-        hondaCbr250rr.setBahanBakar(14.5f);
+        hondaCbr250rr.setBahanBakar("Pertamax");
         hondaCbr250rr.setKetinggianTempatDuduk(790);
 
         Mesin mesinSupraMk4 = new Mesin(6, 2997f, Langkah.EMPAT_LANGKAH);
         Mobil supraMk4 = new Mobil(mesinSupraMk4);
-        supraMk4.setBahanBakar(70f);
+        supraMk4.setBahanBakar("Pertamax Turbo");
         supraMk4.setJumlahPintu(2);
 
         System.out.println("Sepeda Motor Honda CBR250RR");
